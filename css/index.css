@@ -1,0 +1,31 @@
+htnl,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container h1{
+    font-size: 7em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#con1{
+    background-image: url("../src/mountains-g70837c1be_1920.jpg");
+}
+#con2{
+    background-image: url("../src/sea-g809f02416_1920.jpg");
+}
+#con3{
+    background-image: url("../src/windmill-g11ebfaa3b_1920.jpg");
+}
